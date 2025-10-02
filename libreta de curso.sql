@@ -1,18 +1,3 @@
-/*En este archivo .sql encontrarás todos los comandos que ejecutaremos durante el desarrollo de nuestro entrenamiento. 
-
-Por el momento, te invitamos a preparar el ambiente para que puedas desarrollar todos los ejercicios. 
-
-¡Te deseo muchos éxitos en tus estudios!*/
-
-/*COMANDOS AULA 1
-
-A partir de este punto, estás listo para trabajar directamente en Workbench.
-
-Debes ver todos los videos referentes al Aula 2 y colocar en práctica lo que estarás aprendiendo.
-
-¡Mucho ánimo! Nuestro curso ha comenzado.*/
-
-/*COMANDOS AULA 2*/
 
 CREATE DATABASE ventas_jugos;
 
@@ -208,7 +193,7 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 
-/*COMANDOS AULA 3*/
+
 
 USE ventas_jugos;
 
@@ -268,7 +253,7 @@ PRIMERA_COMPRA FROM jugos_ventas.tabla_de_clientes
 WHERE DNI NOT IN (SELECT DNI FROM tb_cliente);
 
 
-/*COMANDOS AULA 4*/
+
 
 SELECT * FROM tb_producto;
 
